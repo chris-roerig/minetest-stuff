@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # crontab
-# run every hour
-# 0 * * * * <path to this script>
+# run half hour
+# 0,30 * * * * <path to this script>
 
 THEHOUR=$(date +%H)
 
